@@ -7,7 +7,7 @@ const app = express();
 const PORT = 5000;
 
 app.use(cors({
-  origin: 'https://taupe-horse-00605b.netlify.app/'  
+  origin: 'https://taupe-horse-00605b.netlify.app'  
 }));
 app.use(bodyParser.json());
 
